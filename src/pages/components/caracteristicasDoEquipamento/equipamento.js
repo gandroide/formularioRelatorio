@@ -20,7 +20,7 @@ class Equipamento extends Component {
     render(){
         return (
             <div>
-            <h2>Caracteristicas do Equipamento</h2>
+            <h2>Caracteristicas do Equipamento:</h2>
                 <form onSubmit={this.handleSubmit}>
                     <label htmlFor="utilizador">Utilizador:</label>
                     <input type="text" id="utilizador" onChange={this.handleChange}/>

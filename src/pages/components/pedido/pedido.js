@@ -23,15 +23,15 @@ class Pedido extends Component {
             <div>
             <h2>Pedido:</h2>
                 <form onSubmit={this.handleSubmit}>
-                <label for="asistencia">Assistência</label>
+                <label htmlFor="asistencia">Assistência</label>
                 <input id="asistencia" type="checkbox" onChange={this.handleChange}></input>
-                <label for="instalacion">Instalação</label>
+                <label htmlFor="instalacion">Instalação</label>
                 <input id="instalacion" type="checkbox" onChange={this.handleChange}></input>
-                <label for="reparacion">Reparação</label>
+                <label htmlFor="reparacion">Reparação</label>
                 <input id="reparacion" type="checkbox" onChange={this.handleChange}></input>
-                <label for="presupuesto">Orçamento</label>
+                <label htmlFor="presupuesto">Orçamento</label>
                 <input id="presupuesto" type="checkbox" onChange={this.handleChange}></input>
-                <label for="desarrollo">Desenvolvimento</label>
+                <label htmlFor="desarrollo">Desenvolvimento</label>
                 <input id="desarrollo" type="checkbox" onChange={this.handleChange}></input>
                 <input id="detalles" type="text" onChange={this.handleChange}></input>{/*CONFIRMAR*/}
                 <button>Submit</button>

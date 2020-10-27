@@ -1,5 +1,4 @@
 import React, { Component } from 'react' 
-import { Req } from './requisitante.module.scss'
 
 class Requisitante extends Component { 
     state = {
@@ -23,7 +22,7 @@ class Requisitante extends Component {
     render(){
         return (
             <div>
-            <h2>Requisitante</h2>
+            <h2>Requisitante:</h2>
                 <form onSubmit={this.handleSubmit}>
                     <label htmlFor="cliente">Cliente:</label>
                     <input type="text" id="cliente" onChange={this.handleChange}/>

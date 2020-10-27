@@ -21,15 +21,15 @@ class Horario extends Component {
         return (
             <div>
                 <form onSubmit={this.handleSubmit}>
-                <label for="diasUtiles">Dias Uteis 18/24</label>
+                <label htmlFor="diasUtiles">Dias Uteis 18/24</label>
                 <input id="diasUtiles" type="checkbox" onChange={this.handleChange}></input>
-                <label for="sabDomFer">Sab./Dom./Fer.</label>
+                <label htmlFor="sabDomFer">Sab./Dom./Fer.</label>
                 <input id="sabDomFer" type="checkbox" onChange={this.handleChange}></input>
-                <label for="noctoruno">Nocturno</label>
+                <label htmlFor="noctoruno">Nocturno</label>
                 <input id="nocturno" type="checkbox" onChange={this.handleChange}></input>
-                <label for="pendiente">Pendiente</label>
+                <label htmlFor="pendiente">Pendiente</label>
                 <input id="pendiente" type="checkbox"></input>
-                <label for="concluido">Concluido</label>
+                <label htmlFor="concluido">Concluido</label>
                 <input id="concluido" type="checkbox"></input>
                 <button>Submit</button>
                 </form>

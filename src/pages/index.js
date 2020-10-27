@@ -2,7 +2,7 @@ import React from "react";
 import Requisitante from "./components/requisitante/requisitante"
 import Pedido from "./components/pedido/pedido"
 import Equipamento from "./components/caracteristicasDoEquipamento/equipamento"
-import Ficha from "./components/fichaDelTecnico/ficha";
+import Ficha from "./components/fichaDelTecnico/ficha"
 import Horario from "./components/horario/horario"
 import Descripcion from "./components/descripcion/descripcion"
 import Materiales from "./components/materialUtilizado/materiales"
