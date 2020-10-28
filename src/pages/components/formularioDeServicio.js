@@ -1,4 +1,5 @@
 import React, { Component } from 'react' 
+import {testing} from './style.module.scss'
 
 class Relatorio extends Component { 
     state = {
@@ -28,7 +29,6 @@ class Relatorio extends Component {
         totalKilometros: null,
         normal: null,
         especializada: null,
-        descripcion: null,
         codigo: null,
         descripcion: null,
         qtd: null,
@@ -45,7 +45,7 @@ class Relatorio extends Component {
     render(){
         return (
             <div>
-            <h2>Requisitante:</h2>
+            <h2 className={testing}>Requisitante:</h2>
                 <form onSubmit={this.handleSubmit}>
                     <label htmlFor="cliente">Cliente:</label>
                     <input type="text" id="cliente" onChange={this.handleChange}/>
