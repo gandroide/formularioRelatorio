@@ -187,7 +187,7 @@ class Relatorio extends Component {
 
                     <div className={descript}>
                         <h3>Descrição:</h3>
-                        <textarea onChange={this.handleChange} value="none" id="campotexto" rows="10" cols="50">Write something here</textarea>
+                        <textarea onChange={this.handleChange} id="campotexto" rows="10" cols="50">PARA QUE COÑO EXISTE EL PLACEHOLDER PLASTA DE MIERDA!!!</textarea>
                     </div>
 
                     <div className={material}>
