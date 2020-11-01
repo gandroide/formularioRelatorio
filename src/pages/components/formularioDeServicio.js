@@ -7,6 +7,7 @@ import {recuadro2} from './style.module.scss'
 import {equipo} from './style.module.scss'
 import {recuadro3} from './style.module.scss'
 import {ficha} from './style.module.scss'
+import {ficha2} from './style.module.scss'
 import {descript} from './style.module.scss'
 import {material} from './style.module.scss'
 import {horas} from './style.module.scss'
@@ -21,6 +22,7 @@ class Relatorio extends Component {
         solicitante: null,
         nipc: null,
         telefone: null,
+        numeroObra: null,
         asistencia: null,
         instalacion: null,
         reparacion: null,
@@ -38,8 +40,12 @@ class Relatorio extends Component {
         deslocacion: null,
         totalHoras: null,
         totalKilometros: null,
-        normal: null,
-        especializada: null,
+        tecnico2: null,
+        horaInicio2: null,
+        horaFin2: null,
+        deslocacion2: null,
+        totalHoras2: null,
+        totalKilometros2: null,
         diasUtiles: null,
         sabDomFer: null,
         nocturno: null,
@@ -94,6 +100,10 @@ class Relatorio extends Component {
                                 <div>
                                     <label htmlFor="telefone"></label>
                                     <input type="text" id="telefone" placeholder="Telefone" onChange={this.handleChange} name="telefone"></input>
+                                </div>
+                                <div>
+                                    <label htmlFor="numeroObra"></label>
+                                    <input type="text" id="numeroObra" placeholder="Num.Obra" onChange={this.handleChange} name="numeroObra"></input>
                                 </div>
                             </div>
                     </div>
@@ -156,11 +166,23 @@ class Relatorio extends Component {
                         <input type="number" id="totalHoras" onChange={this.handleChange} name="totalHoras"></input>
                         <label htmlFor="totalKilometros"><strong>Total</strong> Kilometros:</label>
                         <input type="number" id="totalKilometros" onChange={this.handleChange} name="totalKilometros"></input>
-                        <label htmlFor="normal">Normal</label>
-                        <input type="checkbox" id="normal" onChange={this.handleChange} name="normal"></input>
-                        <label htmlFor="especializada">Especializada</label>
-                        <input type="checkbox" id="especializada" onChange={this.handleChange} name="especializada"></input>
                     </div>
+
+                    <div className={ficha2}>
+                        <label htmlFor="tecnico2">Tecnico:</label>
+                        <input type="text" id="tecnico2" onChange={this.handleChange} name="tecnico2"/>
+                        <label htmlFor="horaInicio2">Inicio:</label>
+                        <input type="time" id="horaInicio2" onChange={this.handleChange} name="horaInicio2"/>
+                        <label htmlFor="horaFin2">Fin:</label>
+                        <input type="time" id="horaFin2" onChange={this.handleChange} name="horaFin2"/>
+                        <label htmlFor="deslocacion2">Deslocação:</label>
+                        <input type="time" id="deslocacion2" onChange={this.handleChange} name="deslocacion2"></input>
+                        <label htmlFor="totalHoras2"><strong>Total</strong> Horas:</label>
+                        <input type="number" id="totalHoras2" onChange={this.handleChange} name="totalHoras2"></input>
+                        <label htmlFor="totalKilometros2"><strong>Total</strong> Kilometros:</label>
+                        <input type="number" id="totalKilometros2" onChange={this.handleChange} name="totalKilometros2"></input>
+                    </div>
+
 
                     <div className={horas}>
                         <div>
@@ -199,7 +221,7 @@ class Relatorio extends Component {
                         <label htmlFor="qtd">QTD:</label>
                         <input type="text" id="qtd" onChange={this.handleChange} name="qtd"/>
                     </div>
-                    <button>Submit</button>
+                    <button>Enviar</button>
                 </form>
             </div>
         )
