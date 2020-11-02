@@ -10,6 +10,7 @@ import {ficha} from './style.module.scss'
 import {ficha2} from './style.module.scss'
 import {descript} from './style.module.scss'
 import {material} from './style.module.scss'
+import {carro} from './style.module.scss'
 import {horas} from './style.module.scss'
 
 
@@ -55,6 +56,7 @@ class Relatorio extends Component {
         codigo: null,
         descripcion: null,
         qtd: null,
+        carro: null,
     }
     handleChange = (e) => {
         this.setState({
@@ -220,6 +222,12 @@ class Relatorio extends Component {
                         <input type="text" id="descripcion" onChange={this.handleChange} name="descripcion"/>
                         <label htmlFor="qtd">QTD:</label>
                         <input type="text" id="qtd" onChange={this.handleChange} name="qtd"/>
+                    </div>
+
+                    <div className={carro}>
+                        <h3>Carro</h3>
+                        <label htmlFor="carro">Matricula:</label>
+                        <input type="text" id="carro" onChange={this.handleChange} name="carro"/>
                     </div>
                     <button>Enviar</button>
                 </form>
