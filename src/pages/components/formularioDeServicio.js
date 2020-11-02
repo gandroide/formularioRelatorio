@@ -12,6 +12,7 @@ import {descript} from './style.module.scss'
 import {material} from './style.module.scss'
 import {carro} from './style.module.scss'
 import {horas} from './style.module.scss'
+import {fecha} from './style.module.scss'
 
 
 class Relatorio extends Component { 
@@ -57,6 +58,7 @@ class Relatorio extends Component {
         descripcion: null,
         qtd: null,
         carro: null,
+        fecha: null
     }
     handleChange = (e) => {
         this.setState({
@@ -72,6 +74,13 @@ class Relatorio extends Component {
                 <form className={formulario} onSubmit={this.handleSubmit}  name="relatorio" method="POST" data-netlify="true">
                     <input type="hidden" name="form-name" value="relatorio"></input>
                     <h2>Relatorio de Serviço</h2>
+
+                    <div className={fecha}>
+                        <h3>Data</h3>
+                        <label htmlFor="fecha">Dia de Serviço:</label>
+                        <input type="date" id="fecha" onChange={this.handleChange} name="fecha"/>
+                    </div>
+
                     <div className={cliente}>
                         <h3>Requisitante:</h3>
                             <div className={recuadro1}>

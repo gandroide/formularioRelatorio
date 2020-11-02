@@ -14,6 +14,42 @@
         align-self: center;
     }
 }
+
+.fecha {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 1em;
+  background: white;
+  box-shadow:2px 3px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+  input[type=date] {
+      background-color: white;
+      color: black;
+      border-radius: 1em;
+      border-color: rgba(128, 128, 128, 0.425);
+      box-shadow:2px 1px 4px rgba(240, 240, 240, 0), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+  
+  h3 {
+      margin: 0px;
+      padding: 0px;
+  }
+}
+button {
+    border-radius: 1em;
+    border: none;
+    box-shadow:2px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    width: 80%;
+    align-self: center;
+    margin: 0.5em;
+    padding: 0.2em;
+}
+
+
 .cliente {
     display: flex;
     flex-direction: column;
