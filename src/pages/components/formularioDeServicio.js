@@ -160,7 +160,7 @@ class Relatorio extends Component {
                         <input type="text" id="tecnico" onChange={this.handleChange} name="tecnico"/>
                         <label htmlFor="horaInicio">Inicio:</label>
                         <input type="time" id="horaInicio" onChange={this.handleChange} name="horaInicio"/>
-                        <label htmlFor="horaFin">Fin:</label>
+                        <label htmlFor="horaFin">Fim:</label>
                         <input type="time" id="horaFin" onChange={this.handleChange} name="horaFin"/>
                         <label htmlFor="deslocacion">Deslocação:</label>
                         <input type="time" id="deslocacion" onChange={this.handleChange} name="deslocacion"></input>
@@ -175,7 +175,7 @@ class Relatorio extends Component {
                         <input type="text" id="tecnico2" onChange={this.handleChange} name="tecnico2"/>
                         <label htmlFor="horaInicio2">Inicio:</label>
                         <input type="time" id="horaInicio2" onChange={this.handleChange} name="horaInicio2"/>
-                        <label htmlFor="horaFin2">Fin:</label>
+                        <label htmlFor="horaFin2">Fim:</label>
                         <input type="time" id="horaFin2" onChange={this.handleChange} name="horaFin2"/>
                         <label htmlFor="deslocacion2">Deslocação:</label>
                         <input type="time" id="deslocacion2" onChange={this.handleChange} name="deslocacion2"></input>
@@ -200,7 +200,7 @@ class Relatorio extends Component {
                             <input id="nocturno" type="checkbox" onChange={this.handleChange} name="nocturno"></input>
                         </div>
                         <div>
-                            <label htmlFor="pendiente">Pendiente</label>
+                            <label htmlFor="pendiente">Pendente</label>
                             <input id="pendiente" type="checkbox" onChange={this.handleChange} name="pendiente"></input>
                         </div>
                         <div>
