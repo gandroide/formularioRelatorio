@@ -234,9 +234,16 @@ class Relatorio extends Component {
                     </div>
 
                     <div className={carro}>
-                        <h3>Carro</h3>
-                        <label htmlFor="carro">Matricula:</label>
-                        <input type="text" id="carro" onChange={this.handleChange} name="carro"/>
+                        <h3>Matricula do Carro</h3>
+                        <select name="carro">
+                            <option value="nenhum carro foi usado"> </option> 
+                            <option value="98-QM-75 CITROEN">98-QM-75 CITROEN</option> 
+                            <option value="68-QC-66 PEUGEOT">68-QC-66 PEUGEOT</option>
+                            <option value="31-PP-93 VOLKSWAGEM">31-PP-93 VOLKSWAGEM</option>
+                            <option value="11-AF-25 CLIO">11-AF-25 CLIO</option>
+                            <option value="31-58-XR CLIO">31-58-XR CLIO</option>
+                        </select>
+
                     </div>
                     <button>Enviar</button>
                 </form>
