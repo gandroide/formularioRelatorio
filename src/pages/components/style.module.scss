@@ -159,6 +159,14 @@ button {
     background: white;
     box-shadow:2px 3px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 
+    select {
+      background-color: white;
+      color: black;
+      border-radius: 1em;
+      border-color: rgba(128, 128, 128, 0.425);
+      box-shadow:2px 1px 4px rgba(240, 240, 240, 0), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+
     input[type=text] {
         background-color: white;
         color: black;
@@ -203,6 +211,14 @@ button {
     border-radius: 1em;
     background: white;
     box-shadow:2px 3px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+    select {
+      background-color: white;
+      color: black;
+      border-radius: 1em;
+      border-color: rgba(128, 128, 128, 0.425);
+      box-shadow:2px 1px 4px rgba(240, 240, 240, 0), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
 
     input[type=text] {
         background-color: white;

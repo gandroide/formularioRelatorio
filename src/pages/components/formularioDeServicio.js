@@ -166,7 +166,28 @@ class Relatorio extends Component {
 
                     <div className={ficha}>
                         <label htmlFor="tecnico">Tecnico:</label>
-                        <input type="text" id="tecnico" onChange={this.handleChange} name="tecnico"/>
+                        <select name="tecnico">
+                            <option value=" "> </option>
+                            <option value="Alejandro Pacheco">Alejandro Pacheco</option>
+                            <option value="Bruno Antonio Freitas">Bruno Antonio Freitas</option>
+                            <option value="Bruno Miguel Freitas">Bruno Miguel Freitas</option>
+                            <option value="Decio Rodrigo">Decio Rodrigo</option>
+                            <option value="Gervasio Fernandes">Gervasio Fernandes</option>
+                            <option value="João Carlos Santos">João Carlos Santos</option>
+                            <option value="João Vitor Freitas">João Vitor Freitas</option>
+                            <option value="João Diogo Silva">João Diogo Silva</option>
+                            <option value="Jose Eusebio Sousa">Jose Eusebio Sousa</option>
+                            <option value="Jose Manuel Marques">Jose Manuel Marques</option>
+                            <option value="Jose Enrique Sirit">Jose Enrique Sirit</option>
+                            <option value="Luis Gonçalves">Luis Gonçalves</option>
+                            <option value="Marcio Basilio">Marcio Basilio</option>
+                            <option value="Marco Vieira">Marco Vieira</option>
+                            <option value="Rafael Camacho">Rafael Camacho</option>
+                            <option value="Roman Krivushin">Roman Krivushin</option>
+                            <option value="Toni Caetano">Toni Caetano</option>
+                        </select>
+
+                      
                         <label htmlFor="horaInicio">Inicio:</label>
                         <input type="time" id="horaInicio" onChange={this.handleChange} name="horaInicio"/>
                         <label htmlFor="horaFin">Fim:</label>
@@ -181,7 +202,26 @@ class Relatorio extends Component {
 
                     <div className={ficha2}>
                         <label htmlFor="tecnico2">Tecnico:</label>
-                        <input type="text" id="tecnico2" onChange={this.handleChange} name="tecnico2"/>
+                        <select name="tecnico2">
+                            <option value=" "> </option>
+                            <option value="Alejandro Pacheco">Alejandro Pacheco</option>
+                            <option value="Bruno Antonio Freitas">Bruno Antonio Freitas</option>
+                            <option value="Bruno Miguel Freitas">Bruno Miguel Freitas</option>
+                            <option value="Decio Rodrigo">Decio Rodrigo</option>
+                            <option value="Gervasio Fernandes">Gervasio Fernandes</option>
+                            <option value="João Carlos Santos">João Carlos Santos</option>
+                            <option value="João Vitor Freitas">João Vitor Freitas</option>
+                            <option value="João Diogo Silva">João Diogo Silva</option>
+                            <option value="Jose Eusebio Sousa">Jose Eusebio Sousa</option>
+                            <option value="Jose Manuel Marques">Jose Manuel Marques</option>
+                            <option value="Jose Enrique Sirit">Jose Enrique Sirit</option>
+                            <option value="Luis Gonçalves">Luis Gonçalves</option>
+                            <option value="Marcio Basilio">Marcio Basilio</option>
+                            <option value="Marco Vieira">Marco Vieira</option>
+                            <option value="Rafael Camacho">Rafael Camacho</option>
+                            <option value="Roman Krivushin">Roman Krivushin</option>
+                            <option value="Toni Caetano">Toni Caetano</option>
+                        </select>
                         <label htmlFor="horaInicio2">Inicio:</label>
                         <input type="time" id="horaInicio2" onChange={this.handleChange} name="horaInicio2"/>
                         <label htmlFor="horaFin2">Fim:</label>
