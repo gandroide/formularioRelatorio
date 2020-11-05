@@ -229,7 +229,7 @@ class Relatorio extends Component {
                         <label htmlFor="deslocacion2">Deslocação:</label>
                         <input type="time" id="deslocacion2" onChange={this.handleChange} name="deslocacion2"></input>
                         <label htmlFor="totalHoras2"><strong>Total</strong> Horas:</label>
-                        <input type="number" id="totalHoras2" onChange={this.handleChange} name="totalHoras2"></input>
+                        <input type="time" id="totalHoras2" onChange={this.handleChange} name="totalHoras2"></input>
                         <label htmlFor="totalKilometros2"><strong>Total</strong> Kilometros:</label>
                         <input type="number" id="totalKilometros2" onChange={this.handleChange} name="totalKilometros2"></input>
                     </div>
