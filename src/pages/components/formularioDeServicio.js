@@ -242,6 +242,8 @@ class Relatorio extends Component {
                             <option value="31-PP-93 VOLKSWAGEM">31-PP-93 VOLKSWAGEM</option>
                             <option value="11-AF-25 CLIO">11-AF-25 CLIO</option>
                             <option value="31-58-XR CLIO">31-58-XR CLIO</option>
+                            <option value="24-VU-41 NISSAN">24-VU-41 NISSAN</option>
+                            <option value="25-VU-74 NISSAN">25-VU-74 NISSAN</option>
                         </select>
 
                     </div>
