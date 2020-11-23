@@ -171,7 +171,7 @@ class Relatorio extends Component {
                             <option value="Alejandro Pacheco">Alejandro Pacheco</option>
                             <option value="Bruno Antonio Freitas">Bruno Antonio Freitas</option>
                             <option value="Bruno Miguel Freitas">Bruno Miguel Freitas</option>
-                            <option value="Decio Rodrigo">Decio Rodrigo</option>
+                            <option value="Decio Rodrigues">Decio Rodrigues</option>
                             <option value="Gervasio Fernandes">Gervasio Fernandes</option>
                             <option value="João Carlos Santos">João Carlos Santos</option>
                             <option value="João Vitor Freitas">João Vitor Freitas</option>
