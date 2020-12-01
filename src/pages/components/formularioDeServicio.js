@@ -73,7 +73,7 @@ class Relatorio extends Component {
     handleSubmit = async (e) => {
         try {
             e.preventDefault()
-            let resultado = await fetch('http://localhost:8888/.netlify/functions/send-email',{
+            let resultado = await fetch('https://relatorio.netlify.app/.netlify/functions/send-email',{
                 method: 'POST',
                 body: JSON.stringify(this.state)
             })
