@@ -59,7 +59,7 @@ const handler = async (event) => {
 
   let info = await transporter.sendMail({
     from: '"Electro Flow" <relatorio.electroflow@gmail.com>', // sender address
-    to: "ajontiveros82@gmail.com,", // list of receivers
+    to: "administrativo@electroflow.com,flavio.figueira@electroflow.com", // list of receivers
     subject: `Data: ${fecha} Tecnico: ${tecnico} Cliente: ${cliente}`, // Subject line 
     html: `
     <!doctype html>
