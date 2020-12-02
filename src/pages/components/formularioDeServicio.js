@@ -98,7 +98,8 @@ class Relatorio extends Component {
     render(){
         return (
             <div>
-                <form className={formulario} onSubmit={this.handleSubmit}  name="relatorio" method="POST">
+                <form className={formulario} data-netlify='true' name="relatorio" method="POST">
+                <input type="hidden" name="form-name" value="relatorio"></input>
                     <h2>Relatorio de Serviço</h2>
 
                     <div className={fecha}>
