@@ -150,15 +150,15 @@ class Relatorio extends Component {
                         <h3>Pedido:</h3>
                             <div className={recuadro2}>
                                 <label htmlFor="asistencia">Assistência</label>
-                                <input id="asistencia" type="checkbox" onChange={this.handleChange} name="asistencia" value={this.state.asistencia}></input>
+                                <input id="asistencia" type="checkbox" onChange={this.handleChange} name="asistencia" ></input>
                                 <label htmlFor="instalacion">Instalação</label>
-                                <input id="instalacion" type="checkbox" onChange={this.handleChange} name="instalacion" value={this.state.instalacion}></input>
+                                <input id="instalacion" type="checkbox" onChange={this.handleChange} name="instalacion" ></input>
                                 <label htmlFor="reparacion">Reparação</label>
-                                <input id="reparacion" type="checkbox" onChange={this.handleChange} name="reparacion" value={this.state.reparacion}></input>
+                                <input id="reparacion" type="checkbox" onChange={this.handleChange} name="reparacion" ></input>
                                 <label htmlFor="presupuesto">Orçamento</label>
-                                <input id="presupuesto" type="checkbox" onChange={this.handleChange} name="presupuesto" value={this.state.presupuesto}></input>
+                                <input id="presupuesto" type="checkbox" onChange={this.handleChange} name="presupuesto" ></input>
                                 <label htmlFor="desarrollo">Desenvolvimento</label>
-                                <input id="desarrollo" type="checkbox" onChange={this.handleChange} name="desarrollo" value={this.state.desarrollo}></input>
+                                <input id="desarrollo" type="checkbox" onChange={this.handleChange} name="desarrollo" ></input>
                             </div>
                             <div>
                                 <input id="detalles" type="text" onChange={this.handleChange} name="detalles" value={this.state.detalles}></input>
@@ -246,23 +246,23 @@ class Relatorio extends Component {
                     <div className={horas}>
                         <div>
                             <label htmlFor="diasUtiles">Dias Uteis 18/24</label>
-                            <input id="diasUtiles" type="checkbox" onChange={this.handleChange} name="diasUtiles" value={this.state.diasUtiles}></input>
+                            <input id="diasUtiles" type="checkbox" onChange={this.handleChange} name="diasUtiles" ></input>
                         </div>
                         <div>
                             <label htmlFor="sabDomFer">Sab./Dom./Fer.</label>
-                            <input id="sabDomFer" type="checkbox" onChange={this.handleChange} name="sabDomFer" value={this.state.sabDomFer}></input>
+                            <input id="sabDomFer" type="checkbox" onChange={this.handleChange} name="sabDomFer" ></input>
                         </div>
                         <div>
                             <label htmlFor="nocturno">Nocturno</label>
-                            <input id="nocturno" type="checkbox" onChange={this.handleChange} name="nocturno" value={this.state.nocturno}></input>
+                            <input id="nocturno" type="checkbox" onChange={this.handleChange} name="nocturno" ></input>
                         </div>
                         <div>
                             <label htmlFor="pendiente">Pendente</label>
-                            <input id="pendiente" type="checkbox" onChange={this.handleChange} name="pendiente" value={this.state.pendiente}></input>
+                            <input id="pendiente" type="checkbox" onChange={this.handleChange} name="pendiente" ></input>
                         </div>
                         <div>
                             <label htmlFor="concluido">Concluido</label>
-                            <input id="concluido" type="checkbox" onChange={this.handleChange} name="concluido" value={this.state.concluido}></input>
+                            <input id="concluido" type="checkbox" onChange={this.handleChange} name="concluido" ></input>
                         </div>
                     </div>
 
